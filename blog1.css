@@ -1,0 +1,164 @@
+#head {
+    text-align: center;
+    padding-top: 1rem;
+    color: white;
+    font-size: 500%;
+}
+h1 {
+    font-family: 'Nerko One', cursive;
+}
+h2 {
+
+    font-family: 'Nerko One', cursive;   
+}
+#nav-bar {
+    position: absolute;
+    left: o;
+    top: 220px;
+    width: 90%;
+    text-align: left;
+}
+#nav {
+    display: inline;
+    padding: 1rem 2.2rem;
+}
+.navi {
+    text-decoration: none;
+    color: white;
+}
+.navi:hover {
+    text-decoration: none;
+    color: rgb(196, 193, 193);
+}
+.nav2 {
+    text-decoration: none;
+    color: rgb(196, 193, 193);
+    font-size: 130%;
+}
+.nav-height {
+    height: 14rem;
+}
+.upper{
+    background-color: lightseagreen;
+}
+
+    .section3 {
+    margin: 4rem;
+    font-weight: lighter;
+    font-size: 150%;
+    text-align: justify;
+    }
+    .section2{
+        text-align: center;
+        padding-top: 2rem;
+    }
+    .section9 {
+    background-color: white;
+    }
+    .date{
+    color: grey;
+    }
+    .tab2 {
+    text-decoration: none;
+    color: white;
+    border-radius: 0.5rem;
+    background-color: lightseagreen;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-top: 0.1rem;
+    padding-bottom: 0.5rem;
+    }
+    
+    .footer-1{
+        text-decoration: none;
+        color: white;
+    }
+    .footer2 {
+        text-align: center;
+        
+        padding-bottom: 4rem;
+    }
+    #foot2 {
+        display: inline;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .foot {
+        background-color: lightseagreen;
+        border-top-left-radius: 1rem;
+        border-top-right-radius: 1rem;
+    }
+    .footer1 {
+        padding-left: 1rem;
+        padding-top: 3rem;
+        color: white;
+    }
+    
+    @media only screen and (max-width:534px){
+        #nav-bar {
+            position: absolute;
+            right: 75px;
+            top: 61px;
+            width: 90%;
+            text-align: right;
+            padding-bottom: 1rem;
+        }
+        #nav {
+            display: block;
+            padding: auto;
+        }
+        .navi {
+            text-decoration: none;
+            color: white;
+        }
+        .navi:hover {
+            text-decoration: none;
+            color: rgb(196, 193, 193);
+        }
+        .nav2 {
+            text-decoration: none;
+            color: rgb(196, 193, 193);
+            font-size: 130%;
+        }
+        
+        .footer2 {
+            text-align: center;
+            
+            padding-bottom: 1rem;
+        }
+        #foot2 {
+            display: block;
+            padding: auto;
+        }
+        .burger{
+            position: absolute;
+            top: 46px;
+            right: 15px;
+    
+        }
+        .line{
+            width: 29px;
+            height: 4px;
+            margin: 5px 3px;
+            background-color: white;
+        }
+        #head{
+            padding-top: 0;
+            font-size: 250%;
+        }
+    
+        .h-resp{
+            height: 7rem;
+        }
+        #nav {
+            padding: 0;
+        }
+        .v-resp{
+            opacity: 0;
+        }
+        .section3 {
+            padding-left: 2rem;
+            padding-right: 2rem;
+        }
+    
+    }

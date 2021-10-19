@@ -61,6 +61,8 @@ h2 {
     font-weight: lighter;
     font-size: 150%;
     text-align: justify;
+    margin-top: 0;
+    margin-bottom: 0;
     }
     .section2{
         text-align: center;

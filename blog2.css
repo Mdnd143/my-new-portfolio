@@ -84,31 +84,22 @@ h2 {
     padding-top: 0.1rem;
     padding-bottom: 0.5rem;
     }
-    
-    .footer-1{
-    text-decoration: none;
-    color: white;
+    svg{
+        color: white;
     }
     .footer2 {
-    text-align: center;
-    
-    padding-bottom: 4rem;
+        text-align: center;
+        padding-top: 6rem;
+        background-color: lightseagreen;
+        padding-bottom: 2rem;
+        
     }
     #foot2 {
-    display: inline;
-    padding-left: 2rem;
-    padding-right: 2rem;
+        display: inline;
+        padding-left: 3%;
+        padding-right: 3%;
     }
-    .foot {
-    background-color: lightseagreen;
-    border-top-left-radius: 1rem;
-    border-top-right-radius: 1rem;
-    }
-    .footer1 {
-    padding-left: 4rem;
-    padding-top: 3rem;
-    color: white;
-    }
+    
     
 @media only screen and (max-width:534px){
     #nav-bar {

@@ -93,31 +93,22 @@ h2 {
         padding-bottom: 0.5rem;
     }
 
-
-    .footer-1{
-        text-decoration: none;
+    svg{
         color: white;
     }
     .footer2 {
         text-align: center;
+        padding-top: 6rem;
+        background-color: lightseagreen;
+        padding-bottom: 2rem;
         
-        padding-bottom: 4rem;
     }
     #foot2 {
         display: inline;
-        padding-left: 2rem;
-        padding-right: 2rem;
+        padding-left: 3%;
+        padding-right: 3%;
     }
-    .foot {
-        background-color: lightseagreen;
-        border-top-left-radius: 1rem;
-        border-top-right-radius: 1rem;
-    }
-    .footer1 {
-        padding-left: 4rem;
-        padding-top: 3rem;
-        color: white;
-    }
+    
     @media only screen and (max-width:534px){
         #nav-bar {
             position: absolute;

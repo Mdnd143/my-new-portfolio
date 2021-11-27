@@ -87,17 +87,23 @@ h2 {
     svg{
         color: white;
     }
+    .footer-title{
+        text-align: center;
+        color: white;
+        padding-bottom: 2rem;
+    }
     .footer2 {
         text-align: center;
-        padding-top: 6rem;
+        padding-top: 1rem;
         background-color: lightseagreen;
         padding-bottom: 2rem;
         
     }
     #foot2 {
         display: inline;
-        padding-left: 3%;
-        padding-right: 3%;
+        width: 50%;
+        padding-left: 5%;
+        padding-right: 5%;
     }
     
     
@@ -134,7 +140,7 @@ h2 {
         padding-bottom: 1rem;
     }
     #foot2 {
-        display: block;
+        display: inline;
         padding: auto;
     }
     .burger{
@@ -155,7 +161,7 @@ h2 {
     }
 
     .h-resp{
-        height: 7rem;
+        height: 4rem;
     }
     #nav {
         padding: 0;

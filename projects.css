@@ -157,6 +157,10 @@ h2 {
             right: 15px;
     
         }
+        .project-image{
+            width: 200px;
+            height: 300px;
+        }
         .line{
             width: 29px;
             height: 4px;

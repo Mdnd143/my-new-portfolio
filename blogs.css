@@ -110,11 +110,9 @@ svg{
 @media only screen and (max-width:534px){
     #nav-bar {
         position: absolute;
-        right: 18px;
+        left: 18px;
         top: 41px;
-        width: 90%;
-        text-align: right;
-        padding-bottom: 1rem;
+    text-align: center;
     }
     .nav-height {
         height: 13rem;

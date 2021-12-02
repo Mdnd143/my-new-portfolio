@@ -96,8 +96,8 @@ h2 {
     @media only screen and (max-width:534px){
         #nav-bar {
             position: absolute;
-            right: 75px;
-            top: 61px;
+            right: 18px;
+            top: 41px;
             width: 90%;
             text-align: right;
             padding-bottom: 1rem;
@@ -105,6 +105,9 @@ h2 {
         #nav {
             display: block;
             padding: auto;
+        }
+        .nav-height {
+            height: 13rem;
         }
         .navi {
             text-decoration: none;

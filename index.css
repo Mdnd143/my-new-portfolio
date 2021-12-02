@@ -21,6 +21,7 @@ h2 {
     text-align: left;
 }
 #nav {
+    
     display: inline;
     padding: 1rem 2.2rem;
 }
@@ -47,6 +48,7 @@ h2 {
 }
 .upper{
     background-color: lightseagreen;
+    
 }
 .headImage1{
     align-items: center;

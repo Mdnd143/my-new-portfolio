@@ -113,6 +113,7 @@ svg{
         left: 18px;
         top: 41px;
     text-align: center;
+    transition: all 0.4s ease-in-out;
     }
     .nav-height {
         height: 13rem;

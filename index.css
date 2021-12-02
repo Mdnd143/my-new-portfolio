@@ -15,14 +15,19 @@ h2 {
 }
 #nav-bar {
     position: absolute;
-    left: o;
-    top: 220px;
+    left: 5rem;
+    top: 4px;
     width: 90%;
     text-align: left;
 }
 #nav {
     display: inline;
     padding: 1rem 2.2rem;
+}
+#dp{
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 2rem;
 }
 .navi {
     text-decoration: none;
@@ -38,38 +43,26 @@ h2 {
     font-size: 130%;
 }
 .nav-height {
-    height: 14rem;
+    height: 2.5rem;
 }
 .upper{
     background-color: lightseagreen;
 }
 .headImage1{
-    position: relative;
-    display: block;
-    margin: auto;
-}
-.headImage3{
-    position: absolute;
-    margin: -10rem 0 0 -4rem;
+    align-items: center;
 }
 .img-container {
     text-align: center;
     padding-top: 1rem;
 }
-.head { font-weight: bold;
-        color: grey;
-        padding-left: 5rem;
-        padding-right: 5rem;
-        padding-top: -1rem;
-        padding-bottom: 1rem;
-}
 .head5 { font-weight: bold;
+    text-align: center;
     font-size: 300%;
     color: grey;
-    padding-left: 5rem;
-    padding-right: 5rem;
-    padding-top: -1rem;
-    padding-bottom: -1;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: -2%;
+    padding-bottom: -2%;
 }
 .head2 {
     color: lightseagreen;
@@ -85,8 +78,8 @@ h2 {
     padding-bottom: 0.5rem;
 }
 .dp{
-    border-radius: 20rem;
-    width: 20%; 
+    border-radius: 15rem;
+    width: 30%; 
     height: 15%;
 }
 .section1 {
@@ -174,13 +167,20 @@ svg{
 
 
 @media only screen and (max-width:534px){
+    .nav-height {
+        height: 14rem;
+    }
     #nav-bar {
         position: absolute;
-        right: 75px;
-        top: 61px;
-        width: 90%;
-        text-align: right;
-        padding-bottom: 1rem;
+        left: 9px;
+        top: 37px;
+        text-align: center;
+    } 
+    #dp{
+        display: block;
+       margin: 2.5% 42.5% 0 42.5%;
+        align-items: center;
+    
     }
     #nav {
         display: block;
@@ -211,8 +211,8 @@ svg{
     }
     .burger{
         position: absolute;
-        top: 46px;
-        right: 15px;
+        top: 25px;
+        right: 25px;
 
     }
     .line{
@@ -230,7 +230,8 @@ svg{
         height: 4rem;
     }
     #nav {
-        padding: 0;
+        padding-top: 0px;
+        padding-bottom: 0px;
     }
     .v-resp{
         opacity: 0;

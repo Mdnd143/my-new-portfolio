@@ -13,10 +13,15 @@ h2 {
 }
 #nav-bar {
     position: absolute;
-    left: o;
-    top: 220px;
+    left: 5rem;
+    top: 4px;
     width: 90%;
     text-align: left;
+}
+#dp{
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 2rem;
 }
 #nav {
     display: inline;
@@ -36,7 +41,7 @@ h2 {
     font-size: 130%;
 }
 .nav-height {
-    height: 14rem;
+    height: 2.5rem;
 }
 .upper{
     background-color: lightseagreen;
@@ -146,10 +151,16 @@ h2 {
         display: inline;
         padding: auto;
     }
+    #dp{
+        display: block;
+       margin: 2.5% 42.5% 0 42.5%;
+        align-items: center;
+    
+    }
     .burger{
         position: absolute;
-        top: 46px;
-        right: 15px;
+        top: 25px;
+        right: 25px;
 
     }
     .line{
